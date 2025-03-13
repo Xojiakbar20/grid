@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.grid-wrap {
+	background-color: #0f0;
+	padding: 20px;
+	display: grid;
+	gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr;
+	/* display:block ; */
+	/* display: inline-block; */
+}
+
+.item {
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid #000;
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+	/* width: 100px; */
+	min-height: 70px;
+}
